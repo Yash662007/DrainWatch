@@ -1,0 +1,15 @@
+{
+  "name": "DrainWatch AI",
+  "short_name": "DrainWatch",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#e8edf2",
+  "theme_color": "#1f6b65",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

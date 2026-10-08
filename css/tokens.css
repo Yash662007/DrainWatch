@@ -1,0 +1,43 @@
+:root {
+  /* Radius scale — clay needs real roundness */
+  --r-sm: 14px;
+  --r-md: 20px;
+  --r-lg: 28px;
+  --r-xl: 36px;
+
+  /* Surfaces — always LIGHTER than --bg */
+  --bg: #e8edf2;                  /* cool misty blue-grey */
+  --surface: #f4f7fa;
+  --surface-elevated: #ffffff;
+
+  /* THE clay shadow stack — reuse everywhere */
+  --clay-raised:
+    inset 2px 2px 6px rgba(255, 255, 255, 0.75),
+    inset -3px -3px 8px rgba(15, 23, 42, 0.06),
+    12px 24px 48px rgba(15, 23, 42, 0.10);
+
+  --clay-raised-hover:
+    inset 2px 2px 6px rgba(255, 255, 255, 0.8),
+    inset -3px -3px 8px rgba(15, 23, 42, 0.06),
+    16px 32px 64px rgba(15, 23, 42, 0.14);
+
+  /* Pressed / sunken — inputs, toggles-on, active chips */
+  --clay-pressed:
+    inset 4px 6px 12px rgba(15, 23, 42, 0.10),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.7);
+
+  /* Semantic tokens */
+  --text-primary: #1e293b; /* Slate 800 */
+  --text-secondary: #64748b; /* Slate 500 */
+  --border: rgba(15, 23, 42, 0.05);
+
+  /* Severity scale - matte and desaturated */
+  --color-healthy: #4b9b69; /* Muted Green */
+  --color-warning: #d99c41; /* Muted Yellow/Gold */
+  --color-high-risk: #c46835; /* Muted Orange */
+  --color-critical: #ba4a4a; /* Muted Red */
+
+  /* Primary Brand */
+  --color-primary: #1f6b65; /* Deep Teal */
+  --color-primary-light: #2c8c84;
+}
